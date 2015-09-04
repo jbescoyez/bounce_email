@@ -56,6 +56,28 @@ class BounceEmailTest < Test::Unit::TestCase
     assert_equal BounceEmail::TYPE_SOFT_FAIL, bounce.type
   end
 
+  # misc other cases we ran into when processing our mails
+  def test_extra
+    {
+      '5.1.0' => [36, 37, 38],
+      '5.1.1' => [26, 30, 31, 33, 35],
+      '5.7.133' => [27],
+      '5.1.10' => [28],
+      '5.7.0' => [32],
+      '4.2.2' => [34],
+      '4.4.0' => [39],
+      '5.7.1' => [29, 40, 41, 42, 43],
+    }.each do |code, tests|
+      tests.each do |i|
+        id = "tt_bounce_#{i}"
+        bounce = test_bounce(id)
+        type = code.start_with?("4") ? BounceEmail::TYPE_SOFT_FAIL : BounceEmail::TYPE_HARD_FAIL
+        assert_equal code, bounce.code, "Test #{id} - Code expected #{code}, got #{bounce.code}"
+        assert_equal type, bounce.type, "Test #{id} - Type expected #{type}, got #{bounce.type}"
+      end
+    end
+  end
+
   # Added because kept getting errors with malformed bounce messages
   def test_malformed_bounce
     bounce = test_bounce('malformed_bounce_01')

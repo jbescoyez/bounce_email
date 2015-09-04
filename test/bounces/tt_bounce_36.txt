@@ -1,0 +1,48 @@
+Date: Mon, 20 Jul 2015 01:54:36 +0000
+From: MAILER-DAEMON (Mail Delivery System)
+To: email@domain.com
+Message-ID: <20150720015436.10E80FAC8928E@smtp-277A-C.mmm.com>
+Subject: Undelivered Mail Returned to Sender
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55ea2f8cc7363_8a9a3fd559c3e20434794";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2f8cc7363_8a9a3fd559c3e20434794
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ea2f8cc7235_8a9a3fd559c3e204346f8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2f8cc7235_8a9a3fd559c3e204346f8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+This is Websense Email Security Gateway at host smtp-277A-C.mmm.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to dlpnotification@mmm.com.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   Websense Email Security Gateway
+
+<email@domain.com>: host 192.28.32.133[192.28.32.133] said: 550 #5.1.0 Address
+    rejected. (in reply to RCPT TO command)
+
+----==_mimepart_55ea2f8cc7235_8a9a3fd559c3e204346f8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2f8cc7235_8a9a3fd559c3e204346f8--
+
+----==_mimepart_55ea2f8cc7363_8a9a3fd559c3e20434794--

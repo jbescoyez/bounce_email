@@ -85,6 +85,7 @@ module BounceEmail
       return '97' if unicode_subject.match(/delayed/i)
       return '98' if unicode_subject.match(/(unzulässiger|unerlaubter) anhang/i)
       return '99' if unicode_subject.match(/auto.*reply|vacation|vocation|(out|away).*office|on holiday|abwesenheits|autorespond|Automatische|eingangsbestätigung/i)
+      return '5.1.1' if unicode_subject.match(/DELIVERY FAILURE: User .* not listed in Domino Directory/)
 
       if mail.parts[1]
         match_parts = mail.parts[1].body.match(/(Status:.|550 |#)([245]\.[0-9]{1,3}\.[0-9]{1,3})/)
@@ -115,6 +116,7 @@ module BounceEmail
         return "4.2.2"
       end
       return "5.1.0" if email.match(/Address rejected/)
+      return "5.1.0" if email.match(/5\.x\.0 - Message bounced by administrator/)
       return "4.1.2" if email.match(/I couldn't find any host by that name/)
       return "4.2.0" if email.match(/not yet been delivered/i)
       return "5.2.0" if email.match(/mailbox unavailable|No such mailbox/i)
@@ -124,15 +126,71 @@ module BounceEmail
       return "5.5.4" if email.match(/554 TRANSACTION FAILED/i)
       return "4.4.1" if email.match(/Status: 4.4.1|delivery temporarily suspended|wasn't able to establish an SMTP connection/i)
       return "5.5.0" if email.match(/550 OU\-002|Mail rejected by Windows Live Hotmail for policy reasons/i)
+      return "5.7.1" if email.match(/550 Your message has been rejected because you have been detected sending spam/)
       return "5.1.2" if email.match(/PERM_FAILURE: DNS Error: Domain name not found/i)
       return "4.2.0" if email.match(/Delivery attempts will continue to be made for/i)
+      return "5.7.1" if email.match(/554 rejected due to spam content/i)
+      return "5.7.1" if email.match(/553 Sender is on user denylist/i)
       return "5.5.4" if email.match(/554 delivery error:/i)
       return "5.1.1" if email.match(/550-5.1.1|This Gmail user does not exist/i)
       return "5.7.1" if email.match(/5.7.1 Your message.*?was blocked by ROTA DNSBL/i) # AA added
       return "5.3.2" if email.match(/Technical details of permanent failure|Too many bad recipients/i)  && (email.match(/The recipient server did not accept our requests to connect/i) || email.match(/Connection was dropped by remote host/i) || email.match(/Could not initiate SMTP conversation/i)) # AA added
-      return "4.3.2" if email.match(/Technical details of temporary failure/i) && (email.match(/The recipient server did not accept our requests to connect/i) || email.match(/Connection was dropped by remote host/i) || email.match(/Could not initiate SMTP conversation/i)) # AA added
+
+      if email.match(/Technical details of temporary failure/i)
+        return "4.3.2" if (email.match(/The recipient server did not accept our requests to connect/i) || email.match(/Connection was dropped by remote host/i) || email.match(/Could not initiate SMTP conversation/i)) # AA added
+
+        return "4.4.0" if email.match(/DNS Error: MX lookup of .* returned error DNS server/)
+      end
+
       return "5.0.0" if email.match(/Delivery to the following recipient failed permanently/i) # AA added
       return '5.2.3' if email.match(/account closed|account has been disabled or discontinued|mailbox not found|prohibited by administrator|access denied|account does not exist/i)
+
+      # try to parse from traditional and enhanced bounce codes
+      # #5.1.1 smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+      # said: 550 5.1.1
+      email.match(/[245]\d\d ([245]\.\d\.\d{1,3})\s/) do |md|
+        return md[1].to_s
+      end
+
+      # 5.3.0 - Other mail system problem 554-'5.1.0 Sender denied'
+      email.match(/Other mail system problem \d{3}-'([245]\.\d\.\d{1,3})\s/) do |md|
+        return md[1].to_s
+      end
+
+      # For more information, see Error code 5.7.1 in Exchange Online and Office 365
+      email.to_s.match(/see error code ([245]\.\d\.\d{1,3}) in exchange online/i) do |md|
+        return md[1].to_s
+      end
+
+      #5.1.1 X-Notes;
+      email.to_s.downcase.match(/#([245]\.\d\.\d{1,3}) x-notes/) do |md|
+        return md[1].to_s
+      end
+
+      # email@domain.com>: host 192.28.32.133[192.28.32.133] said: 550 #5.1.0 Address
+      email.to_s.match(/host .* said: \d{3} #([245]\.[0-9]{1,3}\.[0-9]{1,3})/) do |md|
+        return md[1].to_s
+      end
+
+      # NDR status code 5.7.133 in
+      # NDR Response Code 5.1.10 in E
+      email.to_s.downcase.match(/ndr (?:status|response) code ([245]\.\d\.\d{1,3}) in/) do |md|
+        return md[1].to_s
+      end
+
+      # (Undelivered): 551 SenderAuthorization: email@domain.com is not authorized to send emails to this service.
+      return "5.7.1" if email.match(/551 SenderAuthorization:.*is not authorized/)
+
+      # Remote Server returned '554 Email rejected due to security policies
+      return "5.7.0" if email.match(/554 Email rejected due to security policies/)
+
+      # 554 One or more of the sender or recipients in your email are invalid and not accepted
+      return "5.1.1" if email.match(/554 One or more of the sender or recipients in your email are invalid and not accepted/)
+
+      # 551 RATELIMITED: .* cannot receive any more emails today.
+      return "4.2.2" if email.match(/551 RATELIMITED/)
+
+      nil
     end
 
     def get_reason_from_status_code(code)

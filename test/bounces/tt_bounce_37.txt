@@ -1,0 +1,37 @@
+Date: Sat, 29 Aug 2015 19:12:38 +0000
+From: Mail Delivery System <MAILER-DAEMON@choicehotels.com>
+To: First Last <email@domain.com>
+Message-ID: <82c831$gdic6e@phdmzl01.chotel.com>
+Subject: Undeliverable: Boutiques versus stalwarts
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55ea2fef96ac2_8a9a3fd559c3e2041528d2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fef96ac2_8a9a3fd559c3e2041528d2
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ea2fef969d7_8a9a3fd559c3e204152730";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fef969d7_8a9a3fd559c3e204152730
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message to <email@domain.com> was undeliverable. 
+The reason for the problem: 
+5.x.0 - Message bounced by administrator 
+
+----==_mimepart_55ea2fef969d7_8a9a3fd559c3e204152730
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fef969d7_8a9a3fd559c3e204152730--
+
+----==_mimepart_55ea2fef96ac2_8a9a3fd559c3e2041528d2--

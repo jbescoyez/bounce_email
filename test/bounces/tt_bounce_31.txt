@@ -1,0 +1,48 @@
+Date: Wed, 29 Jul 2015 02:20:01 +1000
+From: MAILER-DAEMON@mailguard.com.au (Mail Delivery System)
+To: email@domain.com
+Message-ID: <20150728162001.6617D30C8DB6@helium.mailguard.com.au>
+Subject: Undelivered Mail Returned to Sender
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55e8eabc56719_82443fea80460208457a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eabc56719_82443fea80460208457a
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55e8eabc56631_82443fea804602084566";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eabc56631_82443fea804602084566
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+This is the mail system at host helium.mailguard.com.au.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<email@domain.com>: host 161.43.103.146[161.43.103.146] said: 550 5.1.1
+    Mailbox <email@domain.com> does not exist (in reply to RCPT TO command)
+
+----==_mimepart_55e8eabc56631_82443fea804602084566
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eabc56631_82443fea804602084566--
+
+----==_mimepart_55e8eabc56719_82443fea80460208457a--

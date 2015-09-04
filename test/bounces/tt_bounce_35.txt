@@ -1,0 +1,39 @@
+Date: Fri, 07 Aug 2015 18:07:03 +0000
+From: "Postmaster@discover.com" <Postmaster@discover.com>
+To: First Last <email@domain.com>
+Message-ID: <OF258CA1A0.C3D956AF-ON86257E9A.00632E8B-86257E9A.00632E91@discover.com>
+In-Reply-To: <55c0fef2a2c5a_79b54ec1464_896_53@worker-02-us-west-2b-production.mail>
+References: <55c0fef2a2c5a_79b54ec1464_896_53@worker-02-us-west-2b-production.mail>
+ <55b9153db11e7_481119cb41c_896_a8@worker-02-us-west-2b-production.mail>
+Subject: DELIVERY FAILURE: User foobar (foobar@domain.com) not listed in
+ Domino Directory
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55e9cd6be1d3c_863f3fe780c4e1fc109488";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e9cd6be1d3c_863f3fe780c4e1fc109488
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55e9cd6be1c1f_863f3fe780c4e1fc109355";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e9cd6be1c1f_863f3fe780c4e1fc109355
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Please consider the environment before printing this email. 
+
+----==_mimepart_55e9cd6be1c1f_863f3fe780c4e1fc109355
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e9cd6be1c1f_863f3fe780c4e1fc109355--
+
+----==_mimepart_55e9cd6be1d3c_863f3fe780c4e1fc109488--

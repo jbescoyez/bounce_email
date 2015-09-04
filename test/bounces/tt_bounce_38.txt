@@ -1,0 +1,37 @@
+Date: Sat, 22 Aug 2015 07:55:01 -0600
+From: Mail Delivery System <MAILER-DAEMON@mx1.chgit.com>
+To: email@domain.com
+Message-ID: <f31425$1gq269@mx1.chgit.com>
+Subject: Delivery Status Notification (Failure)
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55ea2fefb0885_8a9a3fd559c3e2041530a1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fefb0885_8a9a3fd559c3e2041530a1
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ea2fefb07a6_8a9a3fd559c3e2041529f2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fefb07a6_8a9a3fd559c3e2041529f2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+The following message to <email@domain.com> was undeliverable.
+The reason for the problem:
+5.3.0 - Other mail system problem 554-'5.1.0 Sender denied'
+
+----==_mimepart_55ea2fefb07a6_8a9a3fd559c3e2041529f2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fefb07a6_8a9a3fd559c3e2041529f2--
+
+----==_mimepart_55ea2fefb0885_8a9a3fd559c3e2041530a1--

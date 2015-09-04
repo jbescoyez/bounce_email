@@ -1,0 +1,89 @@
+Date: Tue, 01 Sep 2015 19:06:48 +0000
+From: Microsoft Outlook <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@mex08.mlsrvr.com>
+Message-ID: <fcc88743-9c3f-4e24-8921-275b388b2b1f@MBX06D-ORD1.mex08.mlsrvr.com>
+In-Reply-To: <55e5f740a678f_327c3fbf7e020fe4_918_9a@worker-02-us-west-2b-production.mail>
+References: <55e5f740a678f_327c3fbf7e020fe4_918_9a@worker-02-us-west-2b-production.mail>
+Subject: Undeliverable: Increase your furniture sales with amcase.com
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55ea2fec52f29_8a9a3fd559c3e204149236";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fec52f29_8a9a3fd559c3e204149236
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ea2fec52e33_8a9a3fd559c3e204149120";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fec52e33_8a9a3fd559c3e204149120
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2fec52e33_8a9a3fd559c3e204149120
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head> 
+<body> 
+<p><b><font color="#000066" size="3" face="Arial">Delivery has failed to these recipients or groups:</font></b></p> 
+<font color="#000000" size="2" face="Tahoma"> 
+</font><font color="#000000" size="3" face="Arial">A problem occurred while delivering this message to this email address. Try sending this message again. If the problem continues, please contact your helpdesk.<br> 
+</font><font color="#000000" size="2" face="Tahoma"><br> 
+</p> 
+<p>The following organization rejected your message: smtp15.relay.ord1c.emailsrvr.com.</p> 
+</font><br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<font color="#808080" size="2" face="Tahoma"> 
+<p><b>Diagnostic information for administrators:</b></p> 
+<p>Generating server: MBX06D-ORD1.mex08.mlsrvr.com<br> 
+</p> 
+smtp15.relay.ord1c.emailsrvr.com<br> 
+Remote Server returned '550 Your message has been rejected because you have been detected sending spam'<br> 
+</p> 
+<p>Original message headers:</p> 
+<pre>Received: from MBX04B-IAD3.mex08.mlsrvr.com (172.29.17.21) by 
+ MBX06D-ORD1.mex08.mlsrvr.com (172.29.9.27) with Microsoft SMTP Server (TLS) 
+ id 15.0.1044.25; Tue, 1 Sep 2015 14:06:42 -0500 
+Received: from MBX04B-IAD3.mex08.mlsrvr.com (172.29.17.21) by 
+ MBX04B-IAD3.mex08.mlsrvr.com (172.29.17.21) with Microsoft SMTP Server (TLS) 
+ id 15.0.1044.25; Tue, 1 Sep 2015 15:06:42 -0400 
+Received: from MBX04B-IAD3.mex08.mlsrvr.com ([fe80::d445:9c50:22ba:24a7]) by 
+ MBX04B-IAD3.mex08.mlsrvr.com ([fe80::d445:9c50:22ba:24a7%21]) with mapi id 
+ 15.00.1044.021; Tue, 1 Sep 2015 15:06:42 -0400 
+Subject: Increase your furniture sales with amcase.com 
+Thread-Topic: Increase your furniture sales with amcase.com 
+Thread-Index: AQHQ5OlWBCrPOV2QAkSh84EIXdQnuA== 
+Date: Tue, 1 Sep 2015 19:06:41 &#43;0000 
+Message-ID: &lt;55e5f740a678f_327c3fbf7e020fe4_918_9a@worker-02-us-west-2b-production.mail&gt; 
+Accept-Language: en-US 
+Content-Language: en-US 
+X-MS-Has-Attach: yes 
+X-MS-TNEF-Correlator: 
+x-ms-exchange-transport-fromentityheader: Hosted 
+x-originating-ip: [52.27.100.235] 
+Content-Type: multipart/related; 
+	boundary=&quot;_004_55e5f740a678f327c3fbf7e020fe49189aworker02uswest2bprodu_&quot;; 
+	type=&quot;multipart/alternative&quot; 
+MIME-Version: 1.0 
+Return-Path: jacquelyn@elite-strategies.us 
+</pre> 
+</font> 
+</body> 
+</html> 
+
+----==_mimepart_55ea2fec52e33_8a9a3fd559c3e204149120--
+
+----==_mimepart_55ea2fec52f29_8a9a3fd559c3e204149236--

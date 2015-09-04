@@ -1,0 +1,123 @@
+Date: Thu, 16 Jul 2015 23:01:22 +0000
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: email@domain.com
+Message-ID: <001a11343d02cc650c051b060c40@google.com>
+Subject: Delivery Status Notification (Delay)
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55ea2f8fc54be_8a9a3fd559c3e20439928";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2f8fc54be_8a9a3fd559c3e20439928
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ea2f8fc53da_8a9a3fd559c3e204398cd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2f8fc53da_8a9a3fd559c3e204398cd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     email@domain.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: =
+
+DNS Error: MX lookup of mastercard.co returned error DNS server returned =
+general failure
+
+----- Original message -----
+
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dvisual.ly; s=3Dgoogle;
+        h=3Ddate:from:to:message-id:subject:mime-version:content-type
+         :content-transfer-encoding;
+        bh=3Dm2LPFTsB2uz2gwBcHayG0y7wDVxAObAyBDrple7pMyA=3D;
+        b=3DcSRBtLFoXBljZc4I1Q9eudqritFWbPTgHqYrFSKQzMT4eacRnOz4HQNXmzXjd=
+Q7DYj
+         4ckPYfs5AdHuDs+D6MkYyhNTySLRAYDN0lcmkT9KvOuXG5FKoocWjLFZ5dmdACUA=
+YBz6
+         6V6PoQc0kAXxgkFwFHDViipxidwI8AjFpvJYQ=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20130820;
+        h=3Dx-gm-message-state:date:from:to:message-id:subject:mime-versi=
+on
+         :content-type:content-transfer-encoding;
+        bh=3Dm2LPFTsB2uz2gwBcHayG0y7wDVxAObAyBDrple7pMyA=3D;
+        b=3DmSr7IimAaxXFKJXuxYX0eyvolFfsLDvAS1gSzE03G18HNYDzDP4FtMKXCFXW6=
+iEXK6
+         Ux6d5+bhhl6Z4z3KV8b5KwRStHYdW7lMqPgF6YLPHFNEr/pwFBMkqJMvoHg0TCTE=
+8+vw
+         VktlyotqZqeMhIkroTudMDY5vbbcC9SiaQ1BOmoMgPEIpXbuwerCc/XzWJ8wR70M=
+K4sL
+         6JfOBl4vsb3YJQ3nGbDNCiBRzHpfc9U3eppXX0f4o5O1oozhiO3OHv8cJfghl8Fd=
+jawr
+         nxc5djiK2eYbHiJ4nECeHpVFXWb4p6SH4rx850owduDglTloQJx/lHybgNSJudcH=
+skSB
+         UmyA=3D=3D
+X-Gm-Message-State: ALoCoQkDZ+r+erKlBldEAJHS3siNLvJnfFbHrbauC/iLVLH51dHou=
+1NG3Irw1QxaAJwQtrlbAArK
+X-Received: by 10.67.8.40 with SMTP id dh8mr12110707pad.129.1437000163065=
+;
+        Wed, 15 Jul 2015 15:42:43 -0700 (PDT)
+Return-Path: <email@domain.com>
+Received: from visual.ly (ec2-52-27-100-235.us-west-2.compute.amazonaws.c=
+om. [52.27.100.235])
+        by smtp.gmail.com with ESMTPSA id w9sm5705363pbs.82.2015.07.15.15=
+.42.41
+        for <email@domain.com>
+        (version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D12=
+8/128);
+        Wed, 15 Jul 2015 15:42:41 -0700 (PDT)
+Date: Wed, 15 Jul 2015 15:42:40 -0700
+From: First Last <email@domain.com>
+To: First Last <email@domain.com>
+Message-ID: <55a6e1e086659_3bc718f4e44_289_f@worker-02-us-west-2b-product=
+ion.mail>
+Subject: Thanks for your interest in Visually
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary=3D"--=3D=3D_mimepart_55a6e1e0bdb8d_3bc718f4e444201458";
+ charset=3DUTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Thank you for recently engaging with our eBook content.
+
+We hope you find the material useful as you continue to build content for=
+ your company.
+
+We=EF=BF=BD=EF=BF=BD=EF=BF=BDve helped over 1,300 organizations including=
+ The Huffington Post, LinkedIn, and Kia Motors create high-quality visual=
+ content (ebooks, infographics, videos, presentations, and more) =EF=BF=BD=
+=EF=BF=BD=EF=BF=BD=EF=BF=BD=EF=BF=BDand I would love to share what Visual=
+ly can do for your company as well.
+
+Would a quick 15 minute intro of Visually's offering be helpful?
+
+Thanks,
+
+If you'd like me to stop sending you emails, please click here
+
+----==_mimepart_55ea2f8fc53da_8a9a3fd559c3e204398cd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea2f8fc53da_8a9a3fd559c3e204398cd--
+
+----==_mimepart_55ea2f8fc54be_8a9a3fd559c3e20439928--

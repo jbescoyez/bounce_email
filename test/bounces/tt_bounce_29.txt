@@ -1,0 +1,225 @@
+Date: Fri, 21 Aug 2015 19:59:21 +0000
+From: Mail Delivery System <mailer-daemon@salesforce.com>
+To: email@domain.com
+Message-ID: <E3.91.13318.91387D55@mx1-chi3.mta.salesforce.com>
+Subject: Undeliverable: National Association of Broadcasters and Presdo Match
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55e8eab8dd6fc_82443fea8046020843627";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eab8dd6fc_82443fea8046020843627
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55e8eab8dd60d_82443fea80460208435eb";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eab8dd60d_82443fea80460208435eb
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+This message was created automatically by the mail system.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+>>> emailtosalesforce@3-5839fxe98uhrfkkedod4fm82aat58zu9evi1mn9xzwwn0bkox.i-empteaa.na15.le.salesforce.com (Undelivered): 551 SenderAuthorization: email@domain.com is not authorized to send emails to this service.
+
+------ This is a copy of the original message, including all headers. ------
+
+Return-Path: <email@domain.com>
+Authentication-Results:  mx1-chi3.mta.salesforce.com x-tls.subject="/C=US/ST=California/L=Mountain View/O=Google Inc/CN=smtp.gmail.com"; auth=pass (cipher=AES128-GCM-SHA256)
+Received: from [209.85.220.45] ([209.85.220.45:34552] helo=mail-pa0-f45.google.com)
+	by mx1-chi3.mta.salesforce.com (envelope-from <email@domain.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTPS (cipher=AES128-GCM-SHA256
+	subject="/C=US/ST=California/L=Mountain View/O=Google Inc/CN=smtp.gmail.com") 
+	id 52/91-13318-91387D55; Fri, 21 Aug 2015 19:59:21 +0000
+Received: by padfo6 with SMTP id fo6so13707936pad.1
+        for <emailtosalesforce@3-5839fxe98uhrfkkedod4fm82aat58zu9evi1mn9xzwwn0bkox.i-empteaa.na15.le.salesforce.com>; Fri, 21 Aug 2015 12:59:20 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:date:from:to:message-id:subject:mime-version
+         :content-type:content-transfer-encoding;
+        bh=rpcW6DFM5ZuB5D+JYWCCVN2vaneShY22iOpgod2erYo=;
+        b=PBMxtR8U1eMegCmVyl/BRxKhbvVI++v034gAapxWpX0McXlNF61dbUUgnTMusid1fH
+         rXyOIPlfpBa9Sht0+Nk3RvRoJfehOwf7eNVv4IY/pDUy+Katum+ACDUthvDcJTCp2a1E
+         0s9eCU52QnSLSh08WOB+nIUMyWGS2cZuga/yWYPXnviCRZo9NHOpufqyVH0a4c+3OBtQ
+         mGFUXNIQBn58molDnGkA9TXzjo6jgBdcak3he0Dp84gfP4tOSoCFbKmuXZd6Cx8cey6F
+         46Ec+EPjr8J+yhM3d0IvdVFhTzs3MDz+ERadaf9ruDLUNx2hG4zHzdgcuw3R7tfpsRZZ
+         EPAQ==
+X-Gm-Message-State: ALoCoQnF3EQ9NzdTGsrsp9H6foXex3u8Ri41eo2HpcLe/LmIni+xCNFyQVouHdxSiO9SWMpGeDhE
+X-Received: by 10.66.171.9 with SMTP id aq9mr20727986pac.117.1440187160372;
+        Fri, 21 Aug 2015 12:59:20 -0700 (PDT)
+Received: from presdo.com (ec2-52-26-158-53.us-west-2.compute.amazonaws.com. [52.26.158.53])
+        by smtp.gmail.com with ESMTPSA id r6sm8742560pdj.39.2015.08.21.12.59.19
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 21 Aug 2015 12:59:19 -0700 (PDT)
+Date: Fri, 21 Aug 2015 12:59:19 -0700
+From: First Last <email@domain.com>
+To: First Last <email2@domain.com>
+Message-ID: <55d783176ed6f_3a9a4b8eda0_936_87@worker-04-us-west-2b-production.mail>
+Subject: National Association of Broadcasters and Presdo Match
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55d78317808a4_3a9a4b8eda0561341e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SFDC-Interface: external
+X-SFDC-SPF: Pass
+X-SFDC-SENDERID: Pass
+X-SFDC-SENDERID-PRA: Pass
+X-SFDC-TLS-STATUS: true
+X-SFDC-TLS-CIPHER: AES128-GCM-SHA256
+X-SFDC-TLS-VERIFIED: yes
+X-SFDC-DOMAINKEYS: None
+X-SFDC-Binding: coremailprocessor
+X-SFDC-Original-RCPT: emailtosalesforce@3-5839fxe98uhrfkkedod4fm82aat58zu9evi1mn9xzwwn0bkox.i-empteaa.na15.le.salesforce.com
+
+
+----==_mimepart_55d78317808a4_3a9a4b8eda0561341e
+Content-Type: multipart/related;
+ boundary="--==_mimepart_55d7831780813_3a9a4b8eda056133da";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55d7831780813_3a9a4b8eda056133da
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55d7831780570_3a9a4b8eda056132d3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55d7831780570_3a9a4b8eda056132d3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi First, =
+
+
+I would like to introduce myself to National Association of Broadcasters.=
+ I represent Presdo, and we provide an event app platform for association=
+s, venues, and event organizers to deliver great experiences. Our product=
+, Presdo Match, focuses on enabling event participants to connect and net=
+work. Thanks to our smooth user experience, Presdo apps boast 50-90% aver=
+age attendee engagement and help attract more attendees to your events th=
+rough social media. =
+
+
+Presdo Match offers:
+World class networking functionality with our unique Match technology
+Built-in message and meeting scheduling
+Rich LinkedIn profiles for sponsors, speakers, and attendees
+Sponsor Ad opportunities and Lead suggestions
+Customizable surveys and live polling
+Interactive maps
+In-app Twitter and photo feed =
+
+Other standard functionality such as full agenda, push notifications, etc=
+...
+
+Event organizers, exhibitors, and attendees have all really enjoyed using=
+ Presdo. Please check out our informational page if you=E2=80=99d like to=
+ learn more. It would be great to touch base and discuss how your goals a=
+nd Presdo=E2=80=99s features align.
+
+Please let me know if you have time for a short call and I will make myse=
+lf available for you. I look forward to talking with you more. =
+
+
+Kind regards,
+Kristin
+
+First Last
+Account Executive, Presdo Inc.
+465 Fairchild Dr, Ste 128, Mountain View, CA 94043, USA
+Web: presdo.com | Skype: kvarchibald | Tel: +1 314-221-0508
+LinkedIn: goo.gl/hDDfW
+
+If you'd like me to stop sending you emails, please click here
+
+----==_mimepart_55d7831780570_3a9a4b8eda056132d3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div><span style=3D"font-family: Arial; font-size: 14.6666666666667px; ba=
+ckground-color: transparent;">Hi First, </span></div><div><br></div><di=
+v><span style=3D"font-family: Arial; font-size: 14.6666666666667px; backg=
+round-color: transparent;">I would like to introduce myself to National A=
+ssociation of Broadcasters. I represent Presdo, and we provide an event a=
+pp platform for associations, venues, and event organizers to deliver gre=
+at experiences. Our product, Presdo Match, focuses on enabling event part=
+icipants to connect and network. Thanks to our smooth user experience, Pr=
+esdo apps boast 50-90% average attendee engagement and help attract more =
+attendees to your events through social media. </span></div><div><br></di=
+v><div><span style=3D"font-family: Arial; font-size: 14.6666666666667px; =
+background-color: transparent;">Presdo Match offers:</span></div><ul><li>=
+<span style=3D"font-family: Arial; font-size: 14.6666666666667px; backgro=
+und-color: transparent;">World class networking functionality with our un=
+ique Match technology</span></li><li><span style=3D"font-family: Arial; f=
+ont-size: 14.6666666666667px; background-color: transparent;">Built-in me=
+ssage and meeting scheduling</span></li><li><span style=3D"font-family: A=
+rial; font-size: 14.6666666666667px; background-color: transparent;">Rich=
+ LinkedIn profiles for sponsors, speakers, and attendees</span></li><li><=
+span style=3D"font-family: Arial; font-size: 14.6666666666667px; backgrou=
+nd-color: transparent;">Sponsor Ad opportunities and Lead suggestions</sp=
+an></li><li><span style=3D"font-family: Arial; font-size: 14.666666666666=
+7px; background-color: transparent;">Customizable surveys and live pollin=
+g</span></li><li><span style=3D"font-family: Arial; font-size: 14.6666666=
+666667px; background-color: transparent;">Interactive maps</span></li><li=
+><span style=3D"font-family: Arial; font-size: 14.6666666666667px; backgr=
+ound-color: transparent;">In-app Twitter and photo feed </span></li><li><=
+span style=3D"font-family: Arial; font-size: 14.6666666666667px; backgrou=
+nd-color: transparent;">Other standard functionality such as full agenda,=
+ push notifications, etc...</span></li></ul><div><br></div><div><span sty=
+le=3D"font-family: Arial; font-size: 14.6666666666667px; background-color=
+: transparent;">Event organizers, exhibitors, and attendees have all real=
+ly enjoyed using Presdo. Please check out </span><a href=3D"http://demo.p=
+resdo.com/?utm_source=3Demail&utm_medium=3Demail&utm_term=3D08182015_emai=
+l1&utm_content=3Dorganizers&utm_campaign=3Demail_08182015" style=3D"font-=
+family: Arial; font-size: 14.6666666666667px; background-color: transpare=
+nt;">our informational page</a><span style=3D"font-family: Arial; font-si=
+ze: 14.6666666666667px; background-color: transparent;"> if you=E2=80=99d=
+ like to learn more. It would be great to touch base and discuss how your=
+ goals and Presdo=E2=80=99s features align.</span></div><div><br></div><d=
+iv><span style=3D"font-family: Arial; font-size: 14.6666666666667px; back=
+ground-color: transparent;">Please let me know if you have time for a sho=
+rt call and I will make myself available for you. I look forward to talki=
+ng with you more. </span></div><div><br></div><div><span style=3D"font-fa=
+mily: Arial; font-size: 14.6666666666667px; background-color: transparent=
+;">Kind regards,</span></div><div><span style=3D"font-family: Arial; font=
+-size: 14.6666666666667px; background-color: transparent;">Kristin</span>=
+</div><div><br/></div><div class=3D"outreach-signature"><div>Kristin Arch=
+ibald</div><div>Account Executive, Presdo Inc.</div><div>465 Fairchild Dr=
+, Ste 128, Mountain View, CA 94043, USA</div><div>Web: <a href=3D"http://=
+presdo.com/">presdo.com</a> | Skype: kvarchibald | Tel: <a href=3D"tel:+1=
+314-221-0508">+1 314-221-0508</a></div><div>LinkedIn: <a href=3D"http://g=
+oo.gl/hDDfW">goo.gl/hDDfW</a></div></div><div class=3D"outreach-signature=
+ outreach-unsubscribe" style=3D"font-size: 10px; color: #999;">If you'd l=
+ike me to stop sending you emails, please <a href=3D"https://app.outreach=
+.io/api/mailings/9580/unsubscribe?org_id=3D936&sig=3DIu6iNv8TWg4UKKAgdsPJ=
+MliMyLk%3D%0A">click here</a></div><img src=3D"https://app.outreach.io/ap=
+i/mailings/9580/opened.gif?org_id=3D936&sig=3DjjXhjCd69oZ5jSIZtJIq30MFl5o=
+%3D%0A" alt=3D"" width=3D"1" height=3D"1">=
+
+----==_mimepart_55d7831780570_3a9a4b8eda056132d3--
+
+----==_mimepart_55d7831780813_3a9a4b8eda056133da--
+
+----==_mimepart_55d78317808a4_3a9a4b8eda0561341e--
+
+----==_mimepart_55e8eab8dd60d_82443fea80460208435eb
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eab8dd60d_82443fea80460208435eb--
+
+----==_mimepart_55e8eab8dd6fc_82443fea8046020843627--

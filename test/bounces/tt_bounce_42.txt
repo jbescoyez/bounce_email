@@ -1,0 +1,86 @@
+Date: Wed, 19 Aug 2015 01:55:50 +0000
+From: Mail Delivery System <MAILER-DAEMON@myoutlookonline.com>
+Message-ID: <20150819015228.97D7D5979401@mxout.myoutlookonline.com>
+Subject: Undeliverable: Narratives Analytics about Catamaran
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55ea30199dc54_8a9a3fd559c3e2042064f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea30199dc54_8a9a3fd559c3e2042064f
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55ea30199db7f_8a9a3fd559c3e2042063d5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea30199db7f_8a9a3fd559c3e2042063d5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55ea30199db7f_8a9a3fd559c3e2042063d5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head> 
+<body> 
+<p><b><font color="#000066" size="3" face="Arial">Delivery has failed to these recipients or groups:</font></b></p> 
+<font color="#000000" size="2" face="Tahoma"> 
+<p><a href="mailto:mike@catamaranrx.com">mike@catamaranrx.com</a><br> 
+A problem occurred during the delivery of this message to this e-mail address. Try sending this message again. If the problem continues, please contact your helpdesk.<br> 
+</p> 
+<p>The following organization rejected your message: bmx1.sxc.com.</p> 
+</font><br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<font color="#808080" size="2" face="Tahoma"> 
+<p><b>Diagnostic information for administrators:</b></p> 
+<p>Generating server: mxout.myoutlookonline.com</p> 
+<p>mike@catamaranrx.com<br> 
+bmx1.sxc.com #&lt;bmx1.sxc.com #5.0.0 smtp; 554 rejected due to spam content&gt; #SMTP#</p> 
+<p>Original message headers:</p> 
+Received: from mxout.myoutlookonline.com (localhost [127.0.0.1]) 
+	by mxout.myoutlookonline.com (Postfix) with ESMTP id 2D3C2597940E 
+	for &lt;mike@catamaranrx.com&gt;; Tue, 18 Aug 2015 21:52:27 -0400 (EDT) 
+X-Virus-Scanned: by SpamTitan at myoutlookonline.com 
+Received: from mxout.myoutlookonline.com (localhost [127.0.0.1]) 
+	by mxout.myoutlookonline.com (Postfix) with ESMTP id E14C15979401 
+	for &lt;mike@catamaranrx.com&gt;; Tue, 18 Aug 2015 21:52:25 -0400 (EDT) 
+Received: from S11HUB001.sh11.lan (unknown [10.110.2.1]) 
+	by mxout.myoutlookonline.com (Postfix) with ESMTP id DCC5A59793FD 
+	for &lt;mike@catamaranrx.com&gt;; Tue, 18 Aug 2015 21:52:25 -0400 (EDT) 
+Received: from S11ASHDAG001N2.sh11.lan ([fe80::b51c:e513:6f5b:ef4f]) by 
+ S11HUB001.sh11.lan ([::1]) with mapi id 14.03.0195.001; Tue, 18 Aug 2015 
+ 21:55:45 -0400 
+Subject: Narratives Analytics about Catamaran 
+Thread-Topic: Narratives Analytics about Catamaran 
+Thread-Index: AQHQ2iIpzbRwCXpRyku1jk3ENnrGHA== 
+Date: Wed, 19 Aug 2015 01:55:44 &#43;0000 
+Message-ID: &lt;55d3e21d2cce5_74cd4b631b4_470_60@worker-03-us-west-2b-production.mail&gt; 
+Accept-Language: en-US 
+Content-Language: en-US 
+X-MS-Has-Attach: yes 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [52.26.134.254] 
+x-exclaimer-md-config: f0d3a6b8-613a-409d-aea5-530a0e693ae0 
+Content-Type: text/plain 
+MIME-Version: 1.0 
+</pre> 
+</font> 
+</body> 
+</html> 
+
+----==_mimepart_55ea30199db7f_8a9a3fd559c3e2042063d5--
+
+----==_mimepart_55ea30199dc54_8a9a3fd559c3e2042064f--
