@@ -68,6 +68,14 @@ module BounceEmail
       @type ||= get_type_from_status_code(code)
     end
 
+    def soft_fail?
+      type == TYPE_SOFT_FAIL
+    end
+
+    def hard_fail?
+      type == TYPE_HARD_FAIL
+    end
+
     def original_mail
       @original_mail ||= get_original_mail(@mail)
     end
