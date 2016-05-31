@@ -26,10 +26,10 @@ module BounceEmail
     def initialize(mail)
       @mail = mail.is_a?(String) ? ::Mail.new(mail) : mail
       begin
-        if mail.bounced? #fall back to bounce handling in Mail gem
+        if @mail.bounced? #fall back to bounce handling in Mail gem
           @bounced = true
-          @diagnostic_code = mail.diagnostic_code
-          @error_status = mail.error_status
+          @diagnostic_code = @mail.diagnostic_code
+          @error_status = @mail.error_status
         end
       rescue
         @bounced = @diagnostic_code = @error_status = nil
@@ -41,7 +41,7 @@ module BounceEmail
     end
 
     def diagnostic_code
-      @diagnostic_code ||= get_reason_from_status_code(code)
+      @diagnostic_code ||= get_reason_from_status_code(error_status)
     end
 
     def error_status
