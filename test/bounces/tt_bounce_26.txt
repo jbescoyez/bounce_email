@@ -1,0 +1,106 @@
+Date: Sat, 29 Aug 2015 00:47:51 +0000
+From: "postmaster@allconnect.com" <postmaster@allconnect.com>
+To: Firstname Lastname <email@domain.com>
+Message-ID: <c7ed666b-3d3e-4cb7-a959-009e057c0ef5@allconnect.com>
+In-Reply-To: <55e10131147c0_75348c42b8_943_77@worker-03-us-west-2b-production.mail>
+References: <55e10131147c0_75348c42b8_943_77@worker-03-us-west-2b-production.mail>
+Subject: Undeliverable: Re: Bottleneck Reporting
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55e8bd7c6375c_7d6a3ffd8c84c20877238";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8bd7c6375c_7d6a3ffd8c84c20877238
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55e8bd7c6363e_7d6a3ffd8c84c20877156";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8bd7c6363e_7d6a3ffd8c84c20877156
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8bd7c6363e_7d6a3ffd8c84c20877156
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head> 
+<body> 
+<p><b><font color="#000066" size="3" face="Arial">Delivery has failed to these recipients or groups:</font></b></p> 
+<font color="#000000" size="2" face="Tahoma"> 
+<p><a href="mailto:recipient@otherdomain.com">Other Recipient</a><br> 
+</font><font color="#000000" size="3" face="Arial">The email address you entered couldn't be found. Please check the recipient's email address and try to resend the message. If the problem continues, please contact your helpdesk.<br> 
+</font><font color="#000000" size="2" face="Tahoma"><br> 
+</p> 
+</font><br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<font color="#808080" size="2" face="Tahoma"> 
+<p><b>Diagnostic information for administrators:</b></p> 
+<p>Generating server: allconnect.com<br> 
+</p> 
+<p>recipient@otherdomain.com<br> 
+Remote Server returned '&lt; #5.1.1 smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found&gt;'<br> 
+</p> 
+<p>Original message headers:</p> 
+<pre>Received: from ACIRONPORT01.allconnect.com (192.168.10.26) by 
+ ACMXNODE05.allconnect.com (192.168.17.105) with Microsoft SMTP Server (TLS) 
+ id 14.3.248.2; Fri, 28 Aug 2015 20:47:50 -0400 
+X-IronPort-Anti-Spam-Filtered: true 
+X-IronPort-Anti-Spam-Result: A0AYZACWAOFVnCfxzzJdgk4JGIEAaQaDHWm5fgEEfQRsAQ2FdwIcgRc/DQEBAQEBAQERAQEBAQEICwkJIS6EIwEBAQQjKwUbARYGAQgECgkGAQEBIgIEBRABDgsBHQoEDwMCBQgPBIgNAQQIoFyPY4FLk0MEgTaFN4R1hB4KEQFNEYJjEoExBZU/hB2KIIQyih2GYoNrAYFwAQs5HIFUcQEGgQAHFyOBBQEBAQ 
+X-IPAS-Result: A0AYZACWAOFVnCfxzzJdgk4JGIEAaQaDHWm5fgEEfQRsAQ2FdwIcgRc/DQEBAQEBAQERAQEBAQEICwkJIS6EIwEBAQQjKwUbARYGAQgECgkGAQEBIgIEBRABDgsBHQoEDwMCBQgPBIgNAQQIoFyPY4FLk0MEgTaFN4R1hB4KEQFNEYJjEoExBZU/hB2KIIQyih2GYoNrAYFwAQs5HIFUcQEGgQAHFyOBBQEBAQ 
+X-IronPort-AV: E=Sophos;i=&quot;5.17,427,1437451200&quot;;  
+   d=&quot;scan'208,217,150&quot;;a=&quot;40966440&quot; 
+Received: from mailrelay2.domain.com ([50.207.241.39])  by 
+ ACIRONPORT01.allconnect.com with ESMTP; 28 Aug 2015 20:47:49 -0400 
+Received: from mailrelay2.domain.com (localhost.localdomain [127.0.0.1])	by 
+ localhost (Email Security Appliance) with SMTP id 25AE4558FD5A_5E10135B	for 
+ &lt;recipient@otherdomain.com&gt;; Sat, 29 Aug 2015 00:47:49 &#43;0000 (GMT) 
+Received: from mail.domain.com (utex3.domain.com [10.0.0.213])	by 
+ mailrelay2.domain.com (Sophos Email Appliance) with ESMTP id 
+ 13ECF55B7648_5E10135F	for &lt;recipient@otherdomain.com&gt;; Sat, 29 Aug 2015 
+ 00:47:49 &#43;0000 (GMT) 
+Received: from UTEX3.domain.com (10.0.0.213) by utex3.domain.com (10.0.0.213) with 
+ Microsoft SMTP Server (TLS) id 15.0.1104.5; Fri, 28 Aug 2015 18:47:48 -0600 
+Received: from UTEX3.domain.com ([fe80::40ac:539b:256:d543]) by utex3.domain.com 
+ ([fe80::40ac:539b:256:d543%13]) with mapi id 15.00.1104.000; Fri, 28 Aug 2015 
+ 18:47:48 -0600 
+From: Firstname Lastname &lt;email@domain.com&gt; 
+To: Other Recipient &lt;recipient@otherdomain.com&gt; 
+Subject: Re: Bottleneck Reporting 
+Thread-Topic: Bottleneck Reporting 
+Thread-Index: AQHQ4fRSQWZNv5NnVEOv/JAA3EoXgA== 
+Date: Sat, 29 Aug 2015 00:47:45 &#43;0000 
+Message-ID: &lt;55e10131147c0_75348c42b8_943_77@worker-03-us-west-2b-production.mail&gt; 
+Accept-Language: en-US 
+Content-Language: en-US 
+X-MS-Has-Attach: yes 
+X-MS-TNEF-Correlator: 
+x-ms-exchange-messagesentrepresentingtype: 1 
+x-ms-exchange-transport-fromentityheader: Hosted 
+x-originating-ip: [10.0.0.212] 
+Content-Type: multipart/related; 
+	boundary=&quot;_004_55e10131147c075348c42b894377worker03uswest2bproductionm_&quot;; 
+	type=&quot;multipart/alternative&quot; 
+MIME-Version: 1.0 
+Return-Path: email@domain.com 
+</pre> 
+</font> 
+</body> 
+</html> 
+
+----==_mimepart_55e8bd7c6363e_7d6a3ffd8c84c20877156--
+
+----==_mimepart_55e8bd7c6375c_7d6a3ffd8c84c20877238--

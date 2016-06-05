@@ -1,0 +1,213 @@
+Date: Thu, 13 Aug 2015 01:25:39 +0000
+From: postmaster@halfbricktest.onmicrosoft.com
+To: 
+Message-ID: <b73a41ea-f8c4-450d-9b3e-b93f963007c5@SINPR03MB394.apcprd03.prod.outlook.com>
+In-Reply-To: <55cbf20cd18b1_9531056ecc_982_f8@worker-02-us-west-2b-production.mail>
+References: <55cbf20cd18b1_9531056ecc_982_f8@worker-02-us-west-2b-production.mail>
+Subject: Undeliverable: - Business Opportunity (Advertising)
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_55e8eab926f97_82443fea80460208440c1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eab926f97_82443fea80460208440c1
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55e8eab926eb0_82443fea80460208439d1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55e8eab926eb0_82443fea80460208439d1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Delivery has failed to these recipients or groups:
+
+
+Your message couldn't be delivered because the group you're sending to needs to know who you are before it will accept your message.
+
+To fix this problem, ask the email admin for the group to configure the group to accept messages from you.
+
+For Email Administrators
+This error occurs when the group is configured to reject email from senders outside of the group's organization. To fix the issue, the recipient's email admin must either add the sender's address to the group's list of allowed senders or they must select the group's delivery management option that allows senders both inside and outside of their organization to send email to it.
+
+For more information and instructions on how to do this, see NDR status code 5.7.133 in Office 365 and Exchange Online<http://go.microsoft.com/fwlink/?LinkId=389365>.
+
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: SINPR03MB394.apcprd03.prod.outlook.com
+
+email@domain.com
+Remote Server returned '550 5.7.133 RESOLVER.RST.SenderNotAuthenticatedForGroup; authentication required; Delivery restriction check failed because the sender was not authenticated when sending to this group'
+
+Original message headers:
+
+Received: from SG2PR03CA0012.apcprd03.prod.outlook.com (10.160.233.22) by
+ SINPR03MB394.apcprd03.prod.outlook.com (10.141.116.12) with Microsoft SMTP
+ Server (TLS) id 15.1.225.19; Thu, 13 Aug 2015 01:25:38 +0000
+Received: from DB3FFO11FD053.protection.gbl (2a01:111:f400:7e04::101) by
+ SG2PR03CA0012.outlook.office365.com (2a01:111:e400:b407::22) with Microsoft
+ SMTP Server (TLS) id 15.1.231.21 via Frontend Transport; Thu, 13 Aug 2015
+ 01:25:37 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.192.171)
+ smtp.mailfrom=ogury.co; halfbrick.com; dkim=pass (signature was verified)
+ header.d=ogury.co;halfbrick.com; dmarc=bestguesspass action=none
+ header.from=ogury.co;
+Received-SPF: Pass (protection.outlook.com: domain of ogury.co designates
+ 209.85.192.171 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.192.171; helo=mail-pd0-f171.google.com;
+Received: from mail-pd0-f171.google.com (209.85.192.171) by
+ DB3FFO11FD053.mail.protection.outlook.com (10.47.217.125) with Microsoft SMTP
+ Server (TLS) id 15.1.243.9 via Frontend Transport; Thu, 13 Aug 2015 01:25:36
+ +0000
+Received: by pdbfa8 with SMTP id fa8so13074306pdb.1
+        for <email@domain.com>; Wed, 12 Aug 2015 18:25:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=ogury.co; s=google;
+        h=date:from:to:message-id:subject:mime-version:content-type
+         :content-transfer-encoding;
+        bh=adBTbNarhxkGaSQiwQLIotfXgJsxLwX4GklqxHLyaqA=;
+        b=dMg/54UVIhTXxC7yJ/D0s/0BDyWsUszYyTC4o/fMmNM02WhKLwDYNR1X1r6ERgVS1k
+         LK9lv9X9ou6nliC2Ml+0gpvIS3cKiuJdmEvMAYX0kHFdwAI9g+B+MW42o06UpCLZd5l7
+         QfOreCEaUmvmLmY/gCogiM4Q9Eo7IwNBLiX6s=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:date:from:to:message-id:subject:mime-version
+         :content-type:content-transfer-encoding;
+        bh=adBTbNarhxkGaSQiwQLIotfXgJsxLwX4GklqxHLyaqA=;
+        b=UsZzCp0qXNbdF+DA7Q8ul+VSKAQ+w7ZqQCSjFFryIPMlhaG6YeD76z+JlccGsTjN5D
+         X749r4vMvpPkYEC15GPGBDDX2VsX+KWMrXsxK8Wov/hbpvkG+tqS01w4e2AAoeKHufDu
+         lV3DixU+hsTc3DjTMcGtqli/e23czSy+7LXwIQe83/t2G4nm+AGYNZdUUx4SPPGdupeU
+         Nu9nQGbl8L6HzJUDaGYHTkZ5QBHiL4DJAk4eQsm/pQ2S1oV/3apMbMqTkX8nSExs0Zve
+         AiSMx/YiQUBNXpAbdTgV2hjUM4QXf9QpJC8bH4oT4tBWgl9BQ6/lYXr1e4iE8s0dGqNi
+         aOdw==
+X-Gm-Message-State: ALoCoQlwWu0wrb8io+m8rHWjaoeCLFkOXX8Z8yhfmxv59dXtVyaj/G9+eQutAcJge491ywn0/YDZ
+X-Received: by 10.70.98.230 with SMTP id el6mr52391719pdb.81.1439429134795;
+        Wed, 12 Aug 2015 18:25:34 -0700 (PDT)
+Return-Path: 
+Received: from ogury.co (ec2-52-27-100-235.us-west-2.compute.amazonaws.com. [52.27.100.235])
+        by smtp.gmail.com with ESMTPSA id r9sm407512pds.83.2015.08.12.18.25.33
+        for <email@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 18:25:33 -0700 (PDT)
+Date: Wed, 12 Aug 2015 18:25:32 -0700
+From: 
+To: "email@domain.com" <email@domain.com>
+Message-ID: <55cbf20cd18b1_9531056ecc_982_f8@worker-02-us-west-2b-production.mail>
+Subject: Ogury - Business Opportunity (Advertising)
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+        boundary="--==_mimepart_55cbf20cf0bc7_9531056ecc226736a"; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;DB3FFO11FD053;1:KOwFUthXduPWVyF9wkJByIoMHQg/B805ZAbvLrR5yJOWk17SCR4Ryx++l10yzsDkBdtdSeK5lTf8XJiLwhQ87RyNbBOs/+9Md64j8/C4/k948s6qWNL0BsIW/PbR4OvDhcz5Jr0HpT/HGWbocYQ9Bv7QFeGoZBE3rHv4AgbaM8lxuPII7Ja7LU3haaobeU+Bhab2T3jF7h2LUBdBP7bvXgzcMOQcAg8pGhm2/9cTBnZ1ZEHyrs58Q90ZPEMvb+mn6m7Jj4q8Z7GGR/eFDViCiDFIrS5e7W+8MHuf8sURbvp3aUL+DYyd666QUfO+5V8fPaucH7G7CztFea/nB0zVfKG8QPBsf/MvahWUa/Y+h0JkV8l7LPvrSDGuwh0LvFyy
+X-Forefront-Antispam-Report: CIP:209.85.192.171;CTRY:US;IPV:NLI;EFV:NLI;
+X-Microsoft-Exchange-Diagnostics: 1;SINPR03MB394;2:KCU8zmc+OJL/X9decoW9p1+zPg/Z5fbI1jNkLIdsvkJuVJiTNjj4Y/vdUSAenzFBoA7791oLPBTmZjf9cul5prHqpt4jsjwwLLi0U+DooHnr+HPXyalGnqPsCF03ncBqm2/x/IOWYEnVhEAXuY6dDimgIVzJB7u42dWlfVYawEw=;3:fnxlF6P/HSMqJld2SbQoa7EgWJ61bC14GW4h0InjDBn3QikUNAug6seX2c66oqlRnaJ5w+pyKiblIkUkf9HzyjAiv3kJEht7Lt8jjuQLfBY4LpqWiLPgzPfRjQjPFyxLrj0/q/dzuWdeauX/wXbz7VOmhLZJDBKSb34w/bayjaCxyoIhXeg56EYYM8NkaLOjoMom+PXUAYbRPL2U6zj6eLj2WTZYWqf9XTh2Kq9PiOUs8WolGnEH2qvuHtZ4F13c;25:QZl5fPWuknasHmeyMBXRgpvbu3MBmRdrJEGzE/WVc0QsIt/X2FataBX4BLA8Z8B7QmBez3nNtMear2nRcQPeH7C2/hCgc2DLsAyK09XHTZ5tDFhczID297BZyYLrFrn68QfmE7t3x11Ut06f+sHQ3utynKkBSLbo384EIrSZ+Ag7mRpIbj3i0TIgfpieF/rkhtCy6McczQbtQ9QrSawMtRADpEG4Sbqgfo9VdnmNq0Bj0Hn2XzDJyXH7pIlpj+XGpZ7jrUyIdDTAxtjM8HbxCQ==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(3001015);SRVR:SINPR03MB394;
+
+
+----==_mimepart_55e8eab926eb0_82443fea80460208439d1
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+<Head></head><body>
+<p><b><font color="#000066" size="3" face="Arial">Delivery has failed to these recipients or groups:</font></b></p>
+<font color="#000000" size="2" face="Tahoma"><p><a href="mailto:email@domain.com">email@domain.com (email@domain.com)</a><br>
+</font>
+<font color="#000000" size="3" face="Arial">Your message couldn't be delivered because the group you're sending to needs to know who you are before it will accept your message.<p>To fix this problem, ask the email admin for the group to configure the group to accept messages from you.</p><p><b>For Email Administrators</b><br>This error occurs when the group is configured to reject email from senders outside of the group's organization. To fix the issue, the recipient's email admin must either add the sender's address to the group's list of allowed senders or they must select the group's delivery management option that allows senders both inside and outside of their organization to send email to it.</p><p>For more information and instructions on how to do this, see <a href="http://go.microsoft.com/fwlink/?LinkId=389365">NDR status code 5.7.133 in Office 365 and Exchange Online</a>.</p><br>
+</font>
+<font color="#000000" size="2" face="Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color="#808080" size="2" face="Tahoma"><p><b>Diagnostic information for administrators:</b></p>
+<p>Generating server: SINPR03MB394.apcprd03.prod.outlook.com<br>
+</p>
+<p>email@domain.com<br>
+Remote Server  returned '550 5.7.133 RESOLVER.RST.SenderNotAuthenticatedForGroup; authentication required; Delivery restriction check failed because the sender was not authenticated when sending to this group'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from SG2PR03CA0012.apcprd03.prod.outlook.com (10.160.233.22) by
+ SINPR03MB394.apcprd03.prod.outlook.com (10.141.116.12) with Microsoft SMTP
+ Server (TLS) id 15.1.225.19; Thu, 13 Aug 2015 01:25:38 +0000
+Received: from DB3FFO11FD053.protection.gbl (2a01:111:f400:7e04::101) by
+ SG2PR03CA0012.outlook.office365.com (2a01:111:e400:b407::22) with Microsoft
+ SMTP Server (TLS) id 15.1.231.21 via Frontend Transport; Thu, 13 Aug 2015
+ 01:25:37 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.192.171)
+ smtp.mailfrom=ogury.co; halfbrick.com; dkim=pass (signature was verified)
+ header.d=ogury.co;halfbrick.com; dmarc=bestguesspass action=none
+ header.from=ogury.co;
+Received-SPF: Pass (protection.outlook.com: domain of ogury.co designates
+ 209.85.192.171 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.192.171; helo=mail-pd0-f171.google.com;
+Received: from mail-pd0-f171.google.com (209.85.192.171) by
+ DB3FFO11FD053.mail.protection.outlook.com (10.47.217.125) with Microsoft SMTP
+ Server (TLS) id 15.1.243.9 via Frontend Transport; Thu, 13 Aug 2015 01:25:36
+ +0000
+Received: by pdbfa8 with SMTP id fa8so13074306pdb.1
+        for &lt;email@domain.com&gt;; Wed, 12 Aug 2015 18:25:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=ogury.co; s=google;
+        h=date:from:to:message-id:subject:mime-version:content-type
+         :content-transfer-encoding;
+        bh=adBTbNarhxkGaSQiwQLIotfXgJsxLwX4GklqxHLyaqA=;
+        b=dMg/54UVIhTXxC7yJ/D0s/0BDyWsUszYyTC4o/fMmNM02WhKLwDYNR1X1r6ERgVS1k
+         LK9lv9X9ou6nliC2Ml+0gpvIS3cKiuJdmEvMAYX0kHFdwAI9g+B+MW42o06UpCLZd5l7
+         QfOreCEaUmvmLmY/gCogiM4Q9Eo7IwNBLiX6s=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:date:from:to:message-id:subject:mime-version
+         :content-type:content-transfer-encoding;
+        bh=adBTbNarhxkGaSQiwQLIotfXgJsxLwX4GklqxHLyaqA=;
+        b=UsZzCp0qXNbdF+DA7Q8ul+VSKAQ+w7ZqQCSjFFryIPMlhaG6YeD76z+JlccGsTjN5D
+         X749r4vMvpPkYEC15GPGBDDX2VsX+KWMrXsxK8Wov/hbpvkG+tqS01w4e2AAoeKHufDu
+         lV3DixU+hsTc3DjTMcGtqli/e23czSy+7LXwIQe83/t2G4nm+AGYNZdUUx4SPPGdupeU
+         Nu9nQGbl8L6HzJUDaGYHTkZ5QBHiL4DJAk4eQsm/pQ2S1oV/3apMbMqTkX8nSExs0Zve
+         AiSMx/YiQUBNXpAbdTgV2hjUM4QXf9QpJC8bH4oT4tBWgl9BQ6/lYXr1e4iE8s0dGqNi
+         aOdw==
+X-Gm-Message-State: ALoCoQlwWu0wrb8io+m8rHWjaoeCLFkOXX8Z8yhfmxv59dXtVyaj/G9+eQutAcJge491ywn0/YDZ
+X-Received: by 10.70.98.230 with SMTP id el6mr52391719pdb.81.1439429134795;
+        Wed, 12 Aug 2015 18:25:34 -0700 (PDT)
+Return-Path: 
+Received: from ogury.co (ec2-52-27-100-235.us-west-2.compute.amazonaws.com. [52.27.100.235])
+        by smtp.gmail.com with ESMTPSA id r9sm407512pds.83.2015.08.12.18.25.33
+        for &lt;email@domain.com&gt;
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 18:25:33 -0700 (PDT)
+Date: Wed, 12 Aug 2015 18:25:32 -0700
+From: 
+To: &quot;email@domain.com&quot; &lt;email@domain.com&gt;
+Message-ID: &lt;55cbf20cd18b1_9531056ecc_982_f8@worker-02-us-west-2b-production.mail&gt;
+Subject: Ogury - Business Opportunity (Advertising)
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary=&quot;--==_mimepart_55cbf20cf0bc7_9531056ecc226736a&quot;; charset=&quot;UTF-8&quot;
+Content-Transfer-Encoding: 7bit
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;DB3FFO11FD053;1:KOwFUthXduPWVyF9wkJByIoMHQg/B805ZAbvLrR5yJOWk17SCR4Ryx++l10yzsDkBdtdSeK5lTf8XJiLwhQ87RyNbBOs/+9Md64j8/C4/k948s6qWNL0BsIW/PbR4OvDhcz5Jr0HpT/HGWbocYQ9Bv7QFeGoZBE3rHv4AgbaM8lxuPII7Ja7LU3haaobeU+Bhab2T3jF7h2LUBdBP7bvXgzcMOQcAg8pGhm2/9cTBnZ1ZEHyrs58Q90ZPEMvb+mn6m7Jj4q8Z7GGR/eFDViCiDFIrS5e7W+8MHuf8sURbvp3aUL+DYyd666QUfO+5V8fPaucH7G7CztFea/nB0zVfKG8QPBsf/MvahWUa/Y+h0JkV8l7LPvrSDGuwh0LvFyy
+X-Forefront-Antispam-Report: CIP:209.85.192.171;CTRY:US;IPV:NLI;EFV:NLI;
+X-Microsoft-Exchange-Diagnostics: 1;SINPR03MB394;2:KCU8zmc+OJL/X9decoW9p1+zPg/Z5fbI1jNkLIdsvkJuVJiTNjj4Y/vdUSAenzFBoA7791oLPBTmZjf9cul5prHqpt4jsjwwLLi0U+DooHnr+HPXyalGnqPsCF03ncBqm2/x/IOWYEnVhEAXuY6dDimgIVzJB7u42dWlfVYawEw=;3:fnxlF6P/HSMqJld2SbQoa7EgWJ61bC14GW4h0InjDBn3QikUNAug6seX2c66oqlRnaJ5w+pyKiblIkUkf9HzyjAiv3kJEht7Lt8jjuQLfBY4LpqWiLPgzPfRjQjPFyxLrj0/q/dzuWdeauX/wXbz7VOmhLZJDBKSb34w/bayjaCxyoIhXeg56EYYM8NkaLOjoMom+PXUAYbRPL2U6zj6eLj2WTZYWqf9XTh2Kq9PiOUs8WolGnEH2qvuHtZ4F13c;25:QZl5fPWuknasHmeyMBXRgpvbu3MBmRdrJEGzE/WVc0QsIt/X2FataBX4BLA8Z8B7QmBez3nNtMear2nRcQPeH7C2/hCgc2DLsAyK09XHTZ5tDFhczID297BZyYLrFrn68QfmE7t3x11Ut06f+sHQ3utynKkBSLbo384EIrSZ+Ag7mRpIbj3i0TIgfpieF/rkhtCy6McczQbtQ9QrSawMtRADpEG4Sbqgfo9VdnmNq0Bj0Hn2XzDJyXH7pIlpj+XGpZ7jrUyIdDTAxtjM8HbxCQ==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(3001015);SRVR:SINPR03MB394;
+</pre>
+</font>
+</body>
+</html>
+----==_mimepart_55e8eab926eb0_82443fea80460208439d1--
+
+----==_mimepart_55e8eab926f97_82443fea80460208440c1--
