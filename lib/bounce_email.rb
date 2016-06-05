@@ -125,6 +125,7 @@ module BounceEmail
       end
       return "5.1.0" if email.match(/Address rejected/)
       return "5.1.0" if email.match(/5\.x\.0 - Message bounced by administrator/)
+      return "5.1.1" if email.match(/550 User \(.*\) unknown/)
       return "4.1.2" if email.match(/I couldn't find any host by that name/)
       return "4.2.0" if email.match(/not yet been delivered/i)
       return "5.2.0" if email.match(/mailbox unavailable|No such mailbox/i)
