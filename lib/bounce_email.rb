@@ -165,23 +165,23 @@ module BounceEmail
       end
 
       # For more information, see Error code 5.7.1 in Exchange Online and Office 365
-      email.to_s.match(/see error code ([245]\.\d\.\d{1,3}) in exchange online/i) do |md|
+      email.match(/see error code ([245]\.\d\.\d{1,3}) in exchange online/i) do |md|
         return md[1].to_s
       end
 
       #5.1.1 X-Notes;
-      email.to_s.downcase.match(/#([245]\.\d\.\d{1,3}) x-notes/) do |md|
+      email.match(/#([245]\.\d\.\d{1,3}) x-notes/i) do |md|
         return md[1].to_s
       end
 
       # email@domain.com>: host 192.28.32.133[192.28.32.133] said: 550 #5.1.0 Address
-      email.to_s.match(/host .* said: \d{3} #([245]\.[0-9]{1,3}\.[0-9]{1,3})/) do |md|
+      email.match(/host .* said: \d{3} #([245]\.[0-9]{1,3}\.[0-9]{1,3})/) do |md|
         return md[1].to_s
       end
 
       # NDR status code 5.7.133 in
       # NDR Response Code 5.1.10 in E
-      email.to_s.downcase.match(/ndr (?:status|response) code ([245]\.\d\.\d{1,3}) in/) do |md|
+      email.match(/ndr (?:status|response) code ([245]\.\d\.\d{1,3}) in/i) do |md|
         return md[1].to_s
       end
 
