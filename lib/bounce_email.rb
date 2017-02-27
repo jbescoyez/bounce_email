@@ -305,14 +305,18 @@ module BounceEmail
     end
 
     def extract_and_assign_fields_from(bounce, original)
-      if original.message_id.nil?
-        original.add_message_id extract_field_from(original, /^Message-ID:/)
-      end
+      original_message_id =
+        extract_field_from(original, /^Message-ID:/) ||
+        extract_field_from(original, /^X-Original-Message-ID:/)
+
+      original.add_message_id(original_message_id) if original_message_id
 
       original.from ||= extract_field_from(original, /^From:/)
 
-      original.to ||= (extract_original_to_field_from_header(bounce) ||
-                       extract_field_from(original, /^To:/))
+      original.to ||=
+        extract_original_to_field_from_header(bounce) ||
+        extract_field_from(original, /^To:/) ||
+        extract_final_recipient_from(original)
 
       original.subject ||= extract_field_from(original, /^Subject:/)
 
@@ -322,6 +326,14 @@ module BounceEmail
     def extract_original_to_field_from_header(mail)
       header = mail.header["X-Failed-Recipients"]
       header.value if header && header.value
+    end
+
+    # Extract final recipient email address from the delivery-status envelope
+    #
+    # Expected format: "Final-Recipient: rfc822; test@prospect.io"
+    def extract_final_recipient_from(original)
+      field_value = extract_field_from(original, /^Final-Recipient:/)
+      field_value.split(';').last.strip
     end
 
     def extract_field_from(mail, field_name)
