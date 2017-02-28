@@ -306,6 +306,7 @@ module BounceEmail
 
     def extract_and_assign_fields_from(bounce, original)
       original_message_id =
+        extract_original_message_id_field_from_header(bounce) ||
         extract_field_from(original, /^Message-ID:/) ||
         extract_field_from(original, /^X-Original-Message-ID:/)
 
@@ -325,6 +326,11 @@ module BounceEmail
 
     def extract_original_to_field_from_header(mail)
       header = mail.header["X-Failed-Recipients"]
+      header.value if header && header.value
+    end
+
+    def extract_original_message_id_field_from_header(mail)
+      header = mail.header[:in_reply_to]
       header.value if header && header.value
     end
 
